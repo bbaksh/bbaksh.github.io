@@ -1,474 +1,995 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-   <!--- Basic Page Needs
+   <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Sparrow - Free Responsive HTML5/CSS3 Template</title>
-	<meta name="description" content="">
+	<title>Brandon Baksh - Showcase</title>
+	<meta name="description" content="">  
 	<meta name="author" content="">
 
-   <!-- Mobile Specific Metas
+   <!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.min.css">
+   <link rel="stylesheet" href="css/main.css">     
 
-   <!-- Script
+   <!-- script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 
-   <!-- Favicons
+   <!-- favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.ico" > 
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
 <body>
 
-   <!-- Header
+	<!-- header
    ================================================== -->
-   <header>
+   <header id="main-header">
 
-      <div class="row">
+   	<div class="row">
 
-         <div class="twelve columns">
+	      <div class="logo">
+	         <a href="index.html">Brandon Baksh</a>
+	      </div>
 
-            <div class="logo">
-               <a href="index.html"><img alt="" src="images/logo.png"></a>
-            </div>
+	      <nav id="nav-wrap">         
+	         
+	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+	         	<span class="menu-icon">Menu</span>
+	         </a>
+         	<a class="mobile-btn" href="#" title="Hide navigation">
+         		<span class="menu-icon">Menu</span>
+         	</a>            
 
-            <nav id="nav-wrap">
+	         <ul id="nav" class="nav">
+	            <li><a class="smoothscroll" href="#hero">Home.</a></li>
+		         <li class="current"><a class="smoothscroll" href="#portfolio">Projects.</a></li>
+	            <li><a class="smoothscroll" href="#services">Interests.</a></li>
+	            <li><a class="smoothscroll" href="#about">About.</a></li>
+	            <li><a class="smoothscroll" href="#contact">Contact.</a></li>
+	         </ul> <!-- end #nav -->
 
-               <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+	      </nav> <!-- end #nav-wrap -->
 
-               <ul id="nav" class="nav">
+<!--	      <ul class="header-social">
+	        	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	        	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	        	<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+	      </ul> -->     
 
-	               <li class="current"><a href="index.htm">Home</a></li>
-	               <li><span><a href="blog.html">Blog</a></span>
-                     <ul>
-                        <li><a href="blog.html">Blog Index</a></li>
-                        <li><a href="single.html">Post</a></li>
-                     </ul>
-                  </li>
-                  <li><span><a href="portfolio-index.html">Portfolio</a></span>
-                     <ul>
-                        <li><a href="portfolio-index.html">Portfolio Index</a></li>
-                        <li><a href="portfolio.html">Portfolio Entry</a></li>
-                     </ul>
-                  </li>
-	               <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="styles.html">Features</a></li>
+	   </div>
 
-               </ul> <!-- end #nav -->
+   </header> <!-- end header -->
 
-            </nav> <!-- end #nav-wrap -->
 
-         </div>
-
-      </div>
-
-   </header> <!-- Header End -->
-
-   <!-- Intro Section
+   <!-- homepage hero
    ================================================== -->
-   <section id="intro">
+   <section id="hero">	
+   	  
+		<div class="row hero-content">
 
-      <!-- Flexslider Start-->
-	   <div id="intro-slider" class="flexslider">
+			<div class="twelve columns hero-container">
 
-		   <ul class="slides">
+			   <!-- hero-slider start-->
+			   <div id="hero-slider" class="flexslider">
 
-			   <!-- Slide -->
-			   <li>
-				   <div class="row">
-					   <div class="twelve columns">
-						   <div class="slider-text">
-							   <h1>Free amazing site template<span>.</span></h1>
-							   <p>Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-                        enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-                        enim tellus ultrices elit.</p>
-						   </div>
-                     <div class="slider-image">
-                        <img src="images/sliders/home-slider-image-01.png" alt="" />
+				   <ul class="slides">
+
+					   <!-- slide -->
+					   <li>
+						   <div class="flex-caption">
+								<h1 class="">Brandon Baksh
+								</h1>	
+									
+								<h3 class="">Hey there! <br> Welcome to my personal website. <br>I hope you enjoy your stay!</h3>				   
+							</div>						
+					   </li>
+                       
+                       
+<!--
+					   <!-- slide 
+					   <li>						
+							<div class="flex-caption">
+								<h1 class="">We are a small design studio dedicated to build great digital
+									products.</h1>
+
+								<h3 class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h3>			   
+							</div>					
+					   </li>
+
+					   <!-- slide 
+					   <li>
+						   <div class="flex-caption">
+								<h1 class="">Take a look at some of <a class="smoothscroll" href="#portfolio" title="portfolio" >our works</a> or 
+								<a class="smoothscroll" href="#contact" title="contact us">get in touch</a> to discuss how we can help you.</h1>
+
+								<h3 class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h3>			   
+							</div>
+					   </li>					      
+-->
+                       
+                        
+
+				   </ul>
+
+			   </div> <!-- end hero-slider -->				   
+
+	      </div> <!-- end twelve columns-->
+
+		</div> <!-- end row -->	
+
+       
+
+		<div id="more">
+		      <a class="smoothscroll" href="#about">More About Me<i class="fa fa-angle-down"></i></a>
+		</div> 	
+       
+
+   </section> <!-- end homepage hero -->
+
+
+   <!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row section-head">
+
+      	<div class="twelve columns">
+ <strong>Right now I am looking for an internship opportunity starting in May 2016 for a 4, 12 or 16 month term in order to gain experience, learn and grow. If you have a student internship position to fill, please contact me and I will provide you with my resume, cover letter and transcript.
+                    </strong><br>
+      		<h1>My Latest Projects<span>.</span></h1>
+
+	         <hr />               
+
+	         <p>Venture into my latest school and side projects by clicking on an image!
+	         </p>
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row items">
+
+         <!-- portfolio-wrapper -->
+         <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-01">
+	                  <img src="images/portfolio/multiPost.jpg" alt="multiPost">
+                     <div class="overlay"></div>                       
+                     <div class="portfolio-item-meta">
+     					      <h5>multiPost</h5>
+                        <p>School Project</p>
+     					   </div> 
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+        		</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-02">
+                     <img src="images/portfolio/PixelRunner.jpg" alt="PixelRunner">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Pixel Runner</h5>
+                           <p>Side Project</p>
+          					</div>
                      </div>
-					   </div>
-				   </div>
-			   </li>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
 
-            <!-- Slide -->
-			   <li>
-				   <div class="row">
-					   <div class="twelve columns">
-						   <div class="slider-text">
-							   <h1>Responsive + HTML5 + CSS3<span>.</span></h1>
-							   <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                        deleniti eos et accusamus. amet consequat enim elit noneas sit amet luctu. lacus sit amet luctus lobortis.
-                        Aenean condimentum, lacus sit amet luctus.</p>
-						   </div>
-                     <div class="slider-image">
-                        <img src="images/sliders/home-slider-image-02.png" alt="" />
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-03">
+                     <img src="images/portfolio/bank.jpg" alt="BT_Bank">                        
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>BT Bank</h5>
+                           <p>School Project</p>
+          					</div>
                      </div>
-					   </div>
-				   </div>
-			   </li>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
 
-		   </ul>
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-04">
+                     <img src="images/portfolio/rps.jpg" alt="RockPaperScissors">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Rock-Paper-Scissors</h5>
+                           <p>School Project</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
 
-	   </div> <!-- Flexslider End-->
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-05">
+                   <img src="images/portfolio/checkpoint.jpg" alt="CheckPoint">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>CheckPoint</h5>
+                           <p>Side Project</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
 
-   </section> <!-- Intro Section End-->
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-06">
+                     <img src="images/portfolio/myohelper.jpg" alt="MyoHelper">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>MyoHelper</h5>
+                           <p>Side Project</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
 
-   <!-- Info Section
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-07">                        
+                     <img src="images/portfolio/clickage.jpg" alt="Clickage">                       
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Clickage</h5>
+                           <p>Side Project</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-08">
+                     <img src="images/portfolio/pvz.jpg" alt="PlantsVsZombies">
+                     <div class="overlay">
+                      	<div class="portfolio-item-meta">
+        					      <h5>Plants Vs Zombies</h5>
+                           <p>School Project</p>
+        					   </div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>                     
+                  </a>
+               </div>
+       		</div>  <!-- item end -->
+
+         </div> <!-- end portfolio-wrapper -->
+         
+
+         <!-- modal popup
+	   	========================================================= -->
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/Under-Construction1.jpg" alt="multiPost" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>multiPost</h4>
+			      <p>multiPost is a web application utilizing MongoDB, ExpressJs, AngularJs, Node.Js (MEAN Stack) and Google Authentication to mimic a basic social media website that applies CRUD principles and implements my RESTful API on cloud9 IDE.</p>
+               <span class="categories">School Project [Completed]</span>
+		      </div>
+
+            <div class="link-box group">
+            	<a target="_blank" href="https://github.com/bbaksh/multiPost">GitHub</a>
+            	<a href="#" class="popup-modal-dismiss">Close</a>         
+            </div>
+
+	      </div><!-- modal-01 end -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/Under-Construction1.jpg" alt="Pixel Runner" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Pixel Runner</h4>
+			      <p>Pixel Runner is an android game utilizing Java, Android SDK and the LibGDX API to create a simple 2D side scrolling game where the objective is to dodge obstacles in order to gain points for your high score! This is being created with Android Studio. </p>
+               <span class="categories">Side Project [In Progress]</span>
+		      </div>
+
+            <div class="link-box">            	
+               <a target="_blank" href="https://github.com/bbaksh/PixelRunner">GitHub</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 end -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/Under-Construction1.jpg" alt="BT_Bank" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>BT Bank</h4>
+			      <p>BT Bank is a web application that mimics some functionality of an online bank. You can log in securely to check your balance, make transactions and contact advisors for financial help! BT Bank was created using Java, JSP, MySQL and GlassFish server.</p>
+               <span class="categories">School Project [Completed]</span>
+		      </div>
+
+            <div class="link-box">
+               <a target="_blank" href="https://github.com/bbaksh/BT_Bank">GitHub</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 end -->
+
+			<div id="modal-04" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/Under-Construction1.jpg" alt="RockPaperScissors" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Rock-Paper-Scissors</h4>
+			      <p>Rock-Paper-Scissors is a simple console game. The main purpose of this project was to create a multi-threaded and multi-transactional server that can handle multiple game instances and connections at once. I implemented this using C++ and Socket Programming with the text editor Notepad++. The server is meant to run on a UNIX OS while the client can run on either Windows or UNIX. </p>
+               <span class="categories">School Project [Completed]</span>
+		      </div>
+
+            <div class="link-box">
+               <a target="_blank" href="https://github.com/bbaksh/Rock-Paper-Scissors">GitHub</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 end -->
+
+	      <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+	      	<div class="media">
+	      		<img src="images/portfolio/modals/Under-Construction1.jpg" alt="CheckPoint" />
+	      	</div>      	
+
+		      <div class="description-box">
+			      <h4>CheckPoint</h4>		      
+
+			      <p>CheckPoint is a competitive running challenge for android phones to encourage health and fitness by comparing checkpoint scores with your friends through an online leaderboard database. This was implemented using Java and the Android SDK on Android Studio along with the help of FireBase API, Google Maps API and Location Services.</p>
+
+			      <div class="categories">Side Project [Completed]</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a target="_blank" href="https://github.com/bbaksh/WesternSEHackTheNorth">GitHub</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>		      
+
+	      </div><!-- modal-05 end -->
+
+	      <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/Under-Construction1.jpg" alt="MyoHelper" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>MyoHelper</h4>			      
+
+			      <p>MyoHelper is a proof of concept for manipulating movement with muscle contractions and expansions with a piece of hardware called the Myo Armband made by Thalmic Labs. This was implemented using a simple API from Thalmic Labs, C++ and C# Application Forms on Visual Studio.</p>
+
+			      <div class="categories">Side Project [Completed]</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a target="_blank" href="https://github.com/bbaksh/MyoHelper">GitHub</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 end -->
+
+	      <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/Under-Construction1.jpg" alt="Clickage" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Clickage</h4>			      
+
+			      <p>Clickage is an addicting tapping game built for android devices. You must tap the screen as many times as you can within 15 seconds to score as high as you can. Clickage was imlemented using Java, Android SDK and XML on Android Studio. </p>
+
+			      <div class="categories">Side Project [Completed]</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a target="_blank" href="https://github.com/bbaksh/Clickage">GitHub</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 end -->
+
+	      <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/Under-Construction1.jpg" alt="PlantsVsZombies" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Plants Vs Zombies</h4>			      
+
+			      <p>Plants Vs Zombies is my own version of “Plants Vs Zombies” made from scratch. This has the ability to create and save users along with loading their current progress in the game, have various levels and difficulty while playing on a GUI that handles events and timers. This was implemented on the QT Creator IDE utilizing various QT libraries and C++.</p>
+
+			      <div class="categories">School Project [Completed]</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a target="_blank" href="https://github.com/bbaksh/pvz">GitHub</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-08 end -->
+
+      </div>  <!-- end row -->
+
+   </section> <!-- end portfolio -->
+
+
+   <!-- Services Section
    ================================================== -->
-   <section id="info">
+   <section id="services">
 
-      <div class="row">
+   	<div class="row section-head">
 
-         <div class="bgrid-quarters s-bgrid-halves">
+      	<div class="twelve columns">
 
-           <div class="columns">
-              <h2>Clean & Modern.</h2>
+      		<h1>My Latest Interests<span>.</span></h1>
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
+	         <hr />      	         
 
-           <div class="columns">
-              <h2>Responsive.</h2>
+	         <p>I am always interested in learning new things! <br>Here are the latest things that are on my mind...
+	         </p>
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
+	      </div>
 
-           <div class="columns s-first">
-              <h2>HTML5 + CSS3.</h2>
+      </div> <!-- end section-head -->
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
+      <div class="row mobile-no-padding">      	
 
-           <div class="columns">
-              <h2>Free of Charge.</h2>
+	      <div class="service-list bgrid-third s-bgrid-half tab-bgrid-whole group">
 
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
+	      	<div class="bgrid">	               
 
-           </div>
+	            <h3>Machine Learning.</h3>
+
+	            <div class="service-content">	                  
+		            <p>Machine learning is a subfield of computer science that evolved from the study of pattern recognition and computational learning theory in artificial intelligence. Machine learning explores the study and construction of algorithms that can learn from and make predictions on data. Currently, I am enrolled in a coursera online course hosted by Andrew Ng to learn Machine Learning outside of university as a personal interest.
+	         		</p> 
+	         	</div>  
+
+				</div> <!-- end bgrid -->
+
+				<div class="bgrid">	              
+
+	            <h3>Neural Networks.</h3>                  
+
+	            <div class="service-content">	                  
+		            <p>A Neural network is an information processing system that is inspired by the way biological nervous systems, such as the brain, process information. It is composed of a large number of highly interconnected processing elements (neurones). Neural networks, like people, learn by example. Recently, I found a youtube video called Mar/IO that intrigued me. A computer program utilized a neural network to learn how to play and complete the popular video game, Super Mario Bros.
+	         		</p> 
+	            </div>	              
+
+			   </div> <!-- end bgrid -->
+
+			   <div class="bgrid">	              
+
+	            <h3>Android Development.</h3>
+
+	            <div class="service-content">		                  
+		            <p>Android software development is the process by which new applications are created for the Android operating system. Applications are usually developed in Java programming language using the Android software development kit (SDK), but other development environments are also available. I have taken a great interest in mobile development, specifically android, and I am currently working towards creating games and applications as side projects to learn.
+	        			</p> 
+	            </div> 	               
+
+			   </div> <!-- end bgrid -->
+
+				<div class="bgrid">	              
+	                  
+	            <h3>Cloud Computing.</h3> 
+
+	            <div class="service-content">	                  
+		            <p>Cloud computing is the practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer. This is where the software industry is headed in my opinion. Everything one day will be hosted on the cloud and offered through the popular distribution method of "Software as a Service" (SaaS). It amazes me that one day we will be able to access any piece of infromation or application through any device becuse of cloud computing. In school and outside of school, I try to stay up to date with the big changes that are happening. 
+	         		</p> 
+	            </div>                
+
+				</div> <!-- end bgrid -->
+
+			   <div class="bgrid">
+
+	            <h3>Augmented Reality.</h3>
+
+	            <div class="service-content">	                  
+		            <p>Augmented reality is a live direct or indirect view of a physical, real-world environment whose elements are augmented by computer-generated sensory input such as sound, video, graphics or GPS data. As a result, the technology functions by enhancing one’s current perception of reality. Currently, I have taken an interest in learning about how AR works. Soon I will be creating a small application to scratch the surface of AR and learn more about it.
+	               </p> 
+	            </div>	               
+
+			   </div> <!-- end bgrid -->
+
+			   <div class="bgrid">	               
+
+	            <h3>Web Development.</h3>
+
+	            <div class="service-content">
+		            <p>Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). With the rapid expansion of cloud computing; web development is becoming a must-have for developers looking to stay up-to-date with the skewing of the industry. I have completed my Web Technologies course in school, and I learned that I actually love Web Development. I have taken an interest in Front-End and Back-End development using web languages and I am currently working toward honing my technical skills in this area.
+	        			</p> 
+	            </div>	               
+
+			   </div> <!-- end bgrid -->
+
+	      </div> <!-- end service-list -->	      
+
+      </div> <!-- end row -->      
+
+   </section> <!-- end services -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>Who I Am<span>.</span></h1>
+
+	         <hr />     	    
+
+	         <p>I am sure by now you have realized that my name is Brandon Baksh. I am currently a third year student at the University of Western Ontario pursuing a degree in Software Engineering (B.E.Sc in Software Engineering). 
+	         </p>
+
+	      </div> <!-- end section-head -->
 
       </div>
 
-   </section> <!-- Info Section End-->
+      <div class="row mobile-no-padding">       	
 
-   <!-- Works Section
-   ================================================== -->
-   <section id="works">
+      	<div class="process bgrid-half tab-bgrid-whole group">
+
+      		<div class="bgrid">
+
+			      <h3>Technical Skills</h3>	
+
+			      <p>   
+                        <ul>
+                            <li>C/C++ </li>
+                            <li>Java/Android </li>
+                            <li>C#/.NET </li>
+                            <li>JavaScript/AngularJs </li>
+                            <li>Node.Js /ExpressJs </li>
+                            <li>PHP </li>
+                            <li>HTML/CSS </li>
+                            <li>SQL Databases </li>
+                            <li>Python </li>
+                        </ul>
+			      </p>
+
+		   	</div>
+
+      		<div class="bgrid">
+
+			     	<h3>Technical Tools</h3>
+
+			     	<p> 
+                        <ul>
+                            <li>Object Oriented Programming</li>
+                            <li>Algorithms & Data Structures</li>
+                            <li>Software Development Life Cycle</li>
+                            <li>Software Arcitecture</li>
+                            <li>Software Methodologies</li>
+                            <li>Cross-Platform Development</li>
+                            <li>Testing/Debugging</li>
+                            <li>Git Version Control</li>
+                        </ul>
+                    </p>	
+
+		      </div> 
+
+		      <div class="bgrid">
+
+			     	<h3>Soft Skills</h3>	
+
+			     	<p> 
+                        <ul>
+                            <li>Desire to Learn and Grow</li>
+                            <li>Highly Motivated</li>
+                            <li>Teamwork</li>
+                            <li>Ability to Multitask</li>
+                            <li>Quick Learner</li>
+                            <li>Reliable</li>
+                            <li>Dependable</li>
+                            <li>Adaptable </li>
+                        </ul>
+			      </p>
+
+		      </div>
+
+		      <div class="bgrid">
+
+			      <h3>Academic Achievements</h3>
+
+			      <p> 
+                      <ul>
+                            <li>Dean’s Honour List - 2015-2016 University Of Western Ontario</li>
+                            <li>Dean’s Honour List - 2014-2015 University Of Western Ontario</li>
+                            <li>Second place in UWO Engineering Design Showcase (over 100 teams)- 2014 University Of Western Ontario </li>
+                            <li>Academic Scholarship entrance for average above 90% - 2013 University of Western Ontario</li>
+                        </ul>
+			      </p>	
+
+		      </div>
+
+      	</div> <!-- end process -->      	
+
+     	</div> <!-- end row -->
+
+
+      <div class="row team section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Put a Face to the Name<span>.</span></h1>
+
+	         <hr />	         
+
+	      </div>
+
+      </div> <!-- end section-head -->
 
       <div class="row">
 
-         <div class="twelve columns align-center">
-            <h1>Some of our recent works.</h1>
-         </div>
+         <div id="team-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half mob-bgrid-whole group">
 
-         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-halves">
+            <div class="bgrid member">
 
-    		   <div class="columns portfolio-item">
-               <div class="item-wrap">
-    				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/geometrics.jpg">
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Geometrics</a></h5>
-                     <p>Illustration</p>
-    					</div>
+					<div class="member-pic">
+						<img src="images/team/me.jpg" alt="Me"/>
+                 	<div class="mask"></div>       	
                </div>
-    			</div>
-
-            <div class="columns portfolio-item">
-               <div class="item-wrap">
-    				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/console.jpg">
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Console</a></h5>
-                     <p>Web Development</p>
-    					</div>
+               <div class="member-name">
+                  <h3>Brandon Baksh</h3>
+                  <span>Software Engineering Student</span>
                </div>
-    			</div>
 
-            <div class="columns portfolio-item s-first">
-               <div class="item-wrap">
-    				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/camera-man.jpg">
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Camera Man</a></h5>
-                     <p>Photography</p>
-    					</div>
+<!--               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+            </div> <!-- end member -->
+             
+             
+<!--
+             <div class="bgrid member">
+								
+					<div class="member-pic">
+                  <img src="images/team/member03-k.jpg" alt=""/>
+               	<div class="mask"></div>  
                </div>
-    			</div>
-
-            <div class="columns portfolio-item">
-               <div class="item-wrap">
-    				   <a href="portfolio.html">
-                     <img alt="" src="images/portfolio/into-the-light.jpg">
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Into The Light</a></h5>
-                     <p>Branding</p>
-    					</div>
+               <div class="member-name">
+                  <h3>Sasuke Uchiha</h3>
+                  <span>Lead Designer</span>
                </div>
-    			</div>
 
-         </div>
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
 
-      </div>
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
 
-   </section> <!-- Works Section End-->
+            </div> <!-- end member -->
+<!--
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+						<img src="images/team/member04-k.jpg" alt=""/>
+                 	<div class="mask"></div>                          	
+               </div>
+               <div class="member-name">
+                  <h3>Shikamaru Nara</h3>
+                  <span>Designer</span>
+               </div>
 
-   <!-- Journal Section
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+     			</div> <!-- end member -->
+<!--
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+                 	<img src="images/team/member05-k.jpg" alt=""/>
+                 	<div class="mask"></div>  
+               </div>
+               <div class="member-name">
+                  <h3>Sakura Haruno</h3>
+                  <span>Designer</span>
+               </div>
+
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+            </div> <!-- end member -->
+
+         </div> <!-- end team-wrapper -->
+
+      </div> <!-- end row -->
+
+       
+<!--
+      <div id="call-to-action">	       
+
+		   <div class="row section-ads">
+
+		      <div class="twelve columns">		         		
+
+			      <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost<span>.</span></a></h2>
+
+			      <p>
+			      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+					Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->					
+<!--					</p>
+
+					<div class="action">
+			         <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" >Sign Up Now</a>
+	         	</div>
+
+			   </div>
+
+		   </div> <!-- end section-ads -->		         	         
+
+<!--	   </div> <!-- end call-to-action -->	           
+
+   </section> <!-- end about -->  
+
+
+   <!-- Testimonials Section
    ================================================== -->
-   <section id="journal">
+ <!--  <section id="testimonials">
 
-      <div class="row">
-         <div class="twelve columns align-center">
-            <h1>Our latest posts and rants.</h1>
-         </div>
-      </div>
+      <div class="row content flex-container">
+    
+         <div id="testimonial-slider" class="flexslider">
 
-      <div class="blog-entries">
-
-         <!-- Entry -->
-         <article class="row entry">
-
-            <div class="entry-header">
-
-               <div class="permalink">
-                  <a href="single.html"><i class="fa fa-link"></i></a>
-               </div>
-
-               <div class="ten columns entry-title pull-right">
-                  <h3><a href="single.html">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h3>
-               </div>
-
-               <div class="two columns post-meta end">
-                  <p>
-                  <time datetime="2014-01-31" class="post-date" pubdate="">Jan 31, 2014</time>
-                  <span class="dauthor">By Sakura Haruno</span>
+            <ul class="slides">
+               <li>
+                  <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                  to do what you believe is great work. And the only way to do great work is to love what you do.
+                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
                   </p>
-               </div>
 
-            </div>
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/avatar-1.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		Steve Jobs
+                    		<span class="position">CEO, Apple.</span>
+                    	</div>
+                  </div>
+             	</li> <!-- end slide -->
 
-            <div class="ten columns offset-2 post-content">
-               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-               deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
-               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
-               <a class="more-link" href="single.html">Read More<i class="fa fa-arrow-circle-o-right"></i></a></p>
-            </div>
-
-         </article> <!-- Entry End -->
-
-         <!-- Entry -->
-         <article class="row entry">
-
-            <div class="entry-header">
-
-               <div class="permalink">
-                  <a href="single.html"><i class="fa fa-link"></i></a>
-               </div>
-
-               <div class="ten columns entry-title pull-right">
-                  <h3><a href="single.html">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed.</a></h3>
-               </div>
-
-               <div class="two columns post-meta end">
-                  <p>
-                  <time datetime="2014-01-29" class="post-date" pubdate="">Jan 30, 2014</time>
-                  <span class="dauthor">By John Doe</span>
+ <!--              <li>                       
+                  <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
                   </p>
-               </div>
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/avatar-2.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		John Doe
+                    		<span>CEO, ABC Corp.</span>
+                    	</div>
+                  </div>                        
+               </li> <!-- end slide -->
+<!--
+           </ul> <!-- end slides -->
 
-            </div>
+ <!--        </div> <!-- end flexslider -->         
+   
+ <!--     </div> <!-- end row -->
 
-            <div class="ten columns offset-2 post-content">
-               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-               deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
-               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
-               <a class="more-link" href="single.html">Read More<i class="fa fa-arrow-circle-o-right"></i></a></p>
-            </div>
+  <!-- </section> <!-- end testimonials section -->  
 
-         </article> <!-- Entry End -->
 
-         <!-- Entry -->
-         <article class="row entry">
-
-            <div class="entry-header">
-
-               <div class="permalink">
-                  <a href="single.html"><i class="fa fa-link"></i></a>
-               </div>
-
-               <div class="ten columns entry-title pull-right">
-                  <h3><a href="blog-single.html">Quis autem vel esse eum iure reprehenderit qui in ea voluptate velit esse.</a></h3>
-               </div>
-
-               <div class="two columns post-meta end">
-                  <p>
-                  <time datetime="2014-01-28" class="post-date" pubdate="">Jan 28, 2014</time>
-                  <span class="dauthor">By Naruto Uzumaki</span>
-                  </p>
-               </div>
-
-            </div>
-
-            <div class="ten columns offset-2 post-content">
-               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-               deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
-               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
-               <a class="more-link" href="single.html">Read More<i class="fa fa-arrow-circle-o-right"></i></a></p>
-            </div>
-
-         </article> <!-- Entry End -->
-
-      </div> <!-- Entries End -->
-
-   </section> <!-- Journal Section End-->
-
-   <!-- Call-To-Action Section
+   <!-- contact
    ================================================== -->
-   <section id="call-to-action">
+   <section id="contact">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Get In Touch With Me<span>.</span></h1>
+
+	         <hr />	        
+
+	      </div>
+
+      </div> <!-- end section-head -->
 
       <div class="row">
+      	
+      	<div id="contact-form" class="six columns tab-whole left">
 
-         <div class="eight columns offset-1">
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action=""  >
+      			<fieldset>
 
-            <h1><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h1>
-            <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
-					Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. 
-					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --></p>
+                  <div class="group">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minLength="2" required />
+                  </div>
+                  <div>
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required />
+	               </div>
+                  <div>
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />
+	               </div>                       
+                  <div>
+	                 	<textarea name="contactMessage"  id="contactMessage" placeholder="message" rows="10" cols="50" required ></textarea>
+	               </div>                      
+                  <div>
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning"></div>
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="icon-ok"></i>Your message was sent, thank you!<br />
+      		</div>
 
          </div>
 
-         <div class="three columns action">
+         <div class="six columns tab-whole right">
 
-            <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
+            <p class="lead">Feel free to contact me via email: Brandon.Baksh@hotmail.com 
 
-         </div>
+	         <h3 class="address">Come Visit</h3>
 
-      </div>
+	         <p>
+                London, Ontario (School-Year)<br>
+                Brampton, Ontario (Summer)<br>
+                Canada
+            </p>
 
-   </section> <!-- Call-To-Action Section End-->
+            <h3>Contact Numbers:</h3>
+			   <p>   Phone: (905) 965 5950<br>
+			   </p>
+               	
+         </div>     	
 
-   <!-- Tweets Section
-   ================================================== -->
-   <section id="tweets">
+      </div> <!-- end row -->     
 
-      <div class="row">
-
-         <div class="tweeter-icon align-center">
-            <i class="fa fa-twitter"></i>
-         </div>
-
-         <ul id="twitter" class="align-center">
-            <li>
-               <span>
-               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-               <a href="#">http://t.co/CGIrdxIlI3</a>
-               </span>
-               <b><a href="#">2 Days Ago</a></b>
-            </li>
-            <!--
-            <li>
-               <span>
-               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-               <a href="#">http://t.co/CGIrdxIlI3</a>
-               </span>
-               <b><a href="#">3 Days Ago</a></b>
-            </li>
-            -->
-         </ul>
-
-         <p class="align-center"><a href="#" class="button">Follow us</a></p>
-
-      </div>
-
-   </section> <!-- Tweet Section End-->
+   </section>  <!-- end contact -->
 
 
-
-   <!-- footer
+   <!-- Footer
    ================================================== -->
    <footer>
+<!--
+      <div class="row">  
 
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="footer-nav">
-					<li><a href="#">Home.</a></li>
-              	<li><a href="#">Blog.</a></li>
-              	<li><a href="#">Portfolio.</a></li>
-              	<li><a href="#">About.</a></li>
-              	<li><a href="#">Contact.</a></li>
-               <li><a href="#">Features.</a></li>
-			   </ul>
-
-            <ul class="footer-social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      	<div class="twelve columns content group">
+      		
+				<ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>               
+               <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+               <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+               <li><a href="#"><i class="fa fa-flickr"></i></a></li>               
                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-               <li><a href="#"><i class="fa fa-rss"></i></a></li>
             </ul>
 
-            <ul class="copyright">
-               <li>Copyright &copy; 2014 Sparrow</li> 
-               <li>Design by <a href="http://www.styleshout.com/">Styleshout</a></li>               
-            </ul>
+            <hr />
 
+            <div class="info">
+
+            	<div class="footer-logo"></div>
+
+	            <p>.
+	            </p>	        
+
+	         </div>
+
+      	</div>           
+-->
+         <ul class="copyright">
+         	<li>&copy; Copyright 2015 KREO.</li> 
+         	<li>Design by <a href="http://www.styleshout.com/">Styleshout.</a>.</li>
+         </ul>
+
+         <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#hero">Back to Top<i class="fa fa-angle-up"></i></a>
          </div>
 
-         <div id="go-top" style="display: block;"><a title="Back to Top" href="#">Go To Top</a></div>
+      </div> <!-- end row -->
 
-      </div>
+   </footer> <!-- end footer -->
 
-   </footer> <!-- Footer End-->
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
 
    <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/doubletaptogo.js"></script>
-   <script src="js/init.js"></script>
+   ================================================== --> 
+   <script src="js/jquery-1.11.3.min.js"></script>
+   <script src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/jquery.flexslider-min.js"></script>
+   <script src="js/jquery.waypoints.min.js"></script>
+   <script src="js/jquery.validate.min.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/jquery.placeholder.min.js"></script>
+   <script src="js/jquery.magnific-popup.min.js"></script>  
+   <script src="js/main.js"></script>
 
 </body>
 

@@ -667,8 +667,8 @@ header .logo a {
 	color: transparent;
 	width: 114px;
 	height: 66px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 61px 14px;
+	background: url("../home.svg") no-repeat center;
+	background-size: 35px 35px;
 }
 
 /* header social */
@@ -968,6 +968,7 @@ ul#nav li.current a:after {
 
 #hero {
 	background: #0F1215 url(../images/hero-bg.jpg) no-repeat center;
+	padding-right:80px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
